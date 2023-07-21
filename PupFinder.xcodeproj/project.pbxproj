@@ -7,8 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1838C7752A64512700CE8B62 /* DogViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1838C7742A64512700CE8B62 /* DogViewModel.swift */; };
+		1838C7772A6452CD00CE8B62 /* DogListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1838C7762A6452CD00CE8B62 /* DogListView.swift */; };
+		1838C7792A64571E00CE8B62 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1838C7782A64571E00CE8B62 /* MainView.swift */; };
+		1838C77B2A675EBA00CE8B62 /* DetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1838C77A2A675EBA00CE8B62 /* DetailScreen.swift */; };
+		1838CC102A63192B002E4ABB /* Dog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1838CC0F2A63192B002E4ABB /* Dog.swift */; };
+		1838CC142A632F76002E4ABB /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1838CC132A632F76002E4ABB /* LoadingView.swift */; };
 		1844E4C82A5F086B003C1C64 /* PupFinderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1844E4C72A5F086B003C1C64 /* PupFinderApp.swift */; };
-		1844E4CA2A5F086B003C1C64 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1844E4C92A5F086B003C1C64 /* ContentView.swift */; };
 		1844E4CC2A5F086D003C1C64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1844E4CB2A5F086D003C1C64 /* Assets.xcassets */; };
 		1844E4CF2A5F086D003C1C64 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1844E4CE2A5F086D003C1C64 /* Preview Assets.xcassets */; };
 		188A7A5D2A5F658300D3A58E /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188A7A5C2A5F658300D3A58E /* WelcomeView.swift */; };
@@ -17,9 +22,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1838C7742A64512700CE8B62 /* DogViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogViewModel.swift; sourceTree = "<group>"; };
+		1838C7762A6452CD00CE8B62 /* DogListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogListView.swift; sourceTree = "<group>"; };
+		1838C7782A64571E00CE8B62 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		1838C77A2A675EBA00CE8B62 /* DetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailScreen.swift; sourceTree = "<group>"; };
+		1838CC0F2A63192B002E4ABB /* Dog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dog.swift; sourceTree = "<group>"; };
+		1838CC132A632F76002E4ABB /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		1844E4C42A5F086B003C1C64 /* PupFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PupFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1844E4C72A5F086B003C1C64 /* PupFinderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PupFinderApp.swift; sourceTree = "<group>"; };
-		1844E4C92A5F086B003C1C64 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1844E4CB2A5F086D003C1C64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1844E4CE2A5F086D003C1C64 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		188A7A5C2A5F658300D3A58E /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
@@ -57,13 +67,12 @@
 		1844E4C62A5F086B003C1C64 /* PupFinder */ = {
 			isa = PBXGroup;
 			children = (
-				1844E4C72A5F086B003C1C64 /* PupFinderApp.swift */,
-				1844E4C92A5F086B003C1C64 /* ContentView.swift */,
-				188A7A5C2A5F658300D3A58E /* WelcomeView.swift */,
-				188A7A602A5F749000D3A58E /* View+Extensions.swift */,
+				1881491D2A68264A0033242A /* Utilities */,
+				1881491C2A6825DE0033242A /* ViewModels */,
+				1881491B2A6825C30033242A /* Views */,
+				1881491A2A6825B20033242A /* Models */,
 				1844E4CB2A5F086D003C1C64 /* Assets.xcassets */,
 				1844E4CD2A5F086D003C1C64 /* Preview Content */,
-				188A7A5E2A5F69E200D3A58E /* Color+Hex.swift */,
 			);
 			path = PupFinder;
 			sourceTree = "<group>";
@@ -74,6 +83,44 @@
 				1844E4CE2A5F086D003C1C64 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1881491A2A6825B20033242A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1838CC0F2A63192B002E4ABB /* Dog.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1881491B2A6825C30033242A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1838C77A2A675EBA00CE8B62 /* DetailScreen.swift */,
+				1838C7762A6452CD00CE8B62 /* DogListView.swift */,
+				1838C7782A64571E00CE8B62 /* MainView.swift */,
+				1844E4C72A5F086B003C1C64 /* PupFinderApp.swift */,
+				1838CC132A632F76002E4ABB /* LoadingView.swift */,
+				188A7A5C2A5F658300D3A58E /* WelcomeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1881491C2A6825DE0033242A /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				1838C7742A64512700CE8B62 /* DogViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		1881491D2A68264A0033242A /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				188A7A602A5F749000D3A58E /* View+Extensions.swift */,
+				188A7A5E2A5F69E200D3A58E /* Color+Hex.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,11 +193,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1844E4CA2A5F086B003C1C64 /* ContentView.swift in Sources */,
 				188A7A5F2A5F69E200D3A58E /* Color+Hex.swift in Sources */,
+				1838CC102A63192B002E4ABB /* Dog.swift in Sources */,
 				188A7A5D2A5F658300D3A58E /* WelcomeView.swift in Sources */,
+				1838C7792A64571E00CE8B62 /* MainView.swift in Sources */,
+				1838C7752A64512700CE8B62 /* DogViewModel.swift in Sources */,
 				188A7A612A5F749000D3A58E /* View+Extensions.swift in Sources */,
 				1844E4C82A5F086B003C1C64 /* PupFinderApp.swift in Sources */,
+				1838C7772A6452CD00CE8B62 /* DogListView.swift in Sources */,
+				1838C77B2A675EBA00CE8B62 /* DetailScreen.swift in Sources */,
+				1838CC142A632F76002E4ABB /* LoadingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,7 +331,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"PupFinder/Preview Content\"";
-				DEVELOPMENT_TEAM = ZHTNX98D94;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
