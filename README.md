@@ -4,6 +4,9 @@
 
 PupFinder is an iOS app that allows users to search for dog breeds and receive information such as behavioral traits, compatibility, and physical attributes. The app aims to help users find a breed that best suits their lifestyle and preferences. The project utilizes the Ninja Dog API to retrieve technical information about various dog breeds.
 
+## Demo
+https://github.com/jamesjbustos/PupFinder/assets/45052719/cddd0a8e-3b0b-4be9-b881-293c9990b23a
+
 ## Features
 
 - [x] **Dog Breed Search**: Users can search for dog breeds based on specific criteria, such as size, weight, life expectancy, shedding, barking, energy level, protectiveness, and trainability.
