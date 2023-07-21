@@ -6,17 +6,17 @@ PupFinder is an iOS app that allows users to search for dog breeds and receive i
 
 ## Features
 
-- **Dog Breed Search**: Users can search for dog breeds based on specific criteria, such as size, weight, life expectancy, shedding, barking, energy level, protectiveness, and trainability.
+- [x] **Dog Breed Search**: Users can search for dog breeds based on specific criteria, such as size, weight, life expectancy, shedding, barking, energy level, protectiveness, and trainability.
 
-- **Breed Information**: Detailed information about each dog breed, including behavioral traits, compatibility with other animals, and physical attributes.
+- [x] **Breed Information**: Detailed information about each dog breed, including behavioral traits, compatibility with other animals, and physical attributes.
 
-- **Blog Posts**: A blog section where users can access informative articles related to dog care, training tips, and other relevant topics.
+- [ ] **Blog Posts**: A blog section where users can access informative articles related to dog care, training tips, and other relevant topics.
 
-- **Adoption Locations**: Users can find nearby animal shelters or adoption centers to connect with potential furry friends.
+- [ ] **Adoption Locations**: Users can find nearby animal shelters or adoption centers to connect with potential furry friends.
 
-- **Favorites**: Users can save their favorite dog breeds to a favorites list for quick access.
+- [ ] **Favorites**: Users can save their favorite dog breeds to a favorites list for quick access.
 
-- **Chat**: A chat feature that allows users to communicate with a dog expert for resources or adoption-related questions.
+- [ ] **Chat**: A chat feature that allows users to communicate with a dog expert for resources or adoption-related questions.
 
 ## API Integration
 
