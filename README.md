@@ -35,7 +35,7 @@ PupFinder fetches technical information about dog breeds using the Ninja Dog API
 
 ## Installation
 
-1. Clone the repository: `git clone https://github.com/your-username/PupFinder.git`
+1. Clone the repository: `git clone https://github.com/jamesjbustos/PupFinder.git`
 
 2. Open the project in Xcode: `cd PupFinder` and then `open PupFinder.xcodeproj`
 
